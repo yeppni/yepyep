@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link{
+  color: #C23373;
+}
+
+a:visited{
+  color: #C23373;
+}
+
+a:active{
+  color: #721d43;
+}
+
+body{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+}
+
+header{
+  width: 200px;
+  height: 650px;
+  background-color: #FFF7F1;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  background-color: #ffe3e3;
+  display: flex;
+  align-items: center;
+}
+
+header>.logo{
+ background-color: #ffffff;
+}
+
+.main_footer{
+  width: 80%;
+  height: 650px;
+  background-color: #FFE4C9;
+}
+
+main{
+  height: 550px;
+  background-color: #EED3D9;
+}
+
+.mainmenu>ul{
+  color: #C23373;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.mainmenu li{
+  padding: 10px;
+  margin: 10px;
+  font-weight: 900;
+}
+
+.mainmenu li:hover{
+  background-color: #EED3D9;
+}
+
+.imgslide{
+  height: 350px;
+  background-color: #E6A4B4;
+  display: flex;
+  justify-content: center;
+}
+
+.contents{
+  height: 200px;
+  background-color: #F3D7CA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contents>div{
+  width: 20%;
+  height: 90%;
+  background-color: #FFF8E3;
+}
+
+.contents>div:nth-of-type(3){
+  width: 50%;
+}
+
+.contents>.notice>a{
+  background-color: #fcd0e1;
+  padding: 0px 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.contents>.notice>ul{
+  border: 3px solid #a3003f;
+  padding: 1px
+}
+
+.contents>.notice>ul>li{
+  margin: 5px 10px;
+  padding: 5px 15px;
+}
+
+.contents>.notice>ul :nth-child(even){
+  background-color: #fcd0e1;
+}
+
+.contents>.notice li:hover{
+  background-color: #E1AEFF;
+}
+
+.contents>.notice span{
+  float: right;
+}
+
+.contents>.banner,.direct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #a3003f;
+}
+
+.contents>.banner>a{
+  background-color: #fcd0e1;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.contents>.direct>a{
+  background-color: #fcd0e1;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+footer{
+  height: 100px;
+  background-color: #E78895;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  width: 400px;  
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.familysite{
+  width: 200px; 
+  color: #ffffff;
+  font-weight: 900;  
+  font-size: 18px;
+}
